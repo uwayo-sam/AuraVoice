@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,6 +26,13 @@ export const metadata: Metadata = {
   authors: [{ name: "AuraVoice Team" }],
   creator: "AuraVoice",
   publisher: "AuraVoice Intelligence",
+  category: "technology",
+  alternates: {
+    canonical: "/",
+  },
+  verification: {
+    google: "YOUR_GSC_VERIFICATION_CODE_HERE", // Replace with your code from Search Console
+  },
   formatDetection: {
     email: false,
     address: false,
@@ -79,6 +87,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <JsonLd />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >

@@ -1,9 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { 
-  Check, Phone, ShieldAlert, Clock, Calendar, Zap, 
-  ArrowRight, MessageCircle, Star, ShieldCheck, 
-  Target, TrendingUp, Users, ChevronRight, Play
+  Check, Phone, ShieldAlert, Clock, Zap, 
+  ArrowRight, Target
 } from "lucide-react";
 import BentoGrid from "@/components/BentoGrid";
 
@@ -134,9 +133,9 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-32 items-center">
             <div>
               <h2 className="text-accent font-bold mb-8 uppercase tracking-[0.3em] text-[11px]">The Revenue Leak</h2>
-              <h3 className="text-5xl md:text-7xl font-bold mb-10 tracking-tight leading-none">Voicemail <br /> <span className="opacity-30">doesn't book jobs.</span></h3>
+              <h3 className="text-5xl md:text-7xl font-bold mb-10 tracking-tight leading-none">Voicemail <br /> <span className="opacity-30">doesn&apos;t book jobs.</span></h3>
               <p className="text-xl text-gray-400 mb-12 leading-relaxed">
-                In home services, speed is everything. If you don't answer the first time, your customer calls the next person on Google. Voicemail is a dead end for your business.
+                In home services, speed is everything. If you don&apos;t answer the first time, your customer calls the next person on Google. Voicemail is a dead end for your business.
               </p>
               
               <div className="space-y-10">
@@ -169,10 +168,11 @@ export default function Home() {
                      <span className="font-mono text-xs uppercase tracking-widest text-red-500">Alert: Revenue Loss Detected</span>
                   </div>
                   <div className="space-y-8">
-                     <div className="bg-white/5 rounded-2xl p-8 border border-white/5">
-                        <p className="text-xs font-bold text-gray-500 uppercase mb-4 tracking-widest">Missed Call at 10:32 PM</p>
-                        <p className="text-2xl font-bold italic">"My furnace just stopped working and I have kids. Please help."</p>
-                     </div>
+                      <div className="bg-white/5 rounded-2xl p-8 border border-white/5">
+                         <p className="text-xs font-bold text-gray-500 uppercase mb-4 tracking-widest">Missed Call at 10:32 PM</p>
+                         <p className="text-2xl font-bold italic">&quot;My furnace just stopped working and I have kids. Please help.&quot;</p>
+                      </div>
+
                      <div className="flex justify-between items-center py-6 border-y border-white/5">
                         <p className="text-gray-400 font-bold uppercase tracking-widest text-sm">Status</p>
                         <p className="text-red-500 font-black tracking-tighter text-xl italic uppercase">Lead Lost to Competitor</p>
@@ -260,12 +260,13 @@ export default function Home() {
                       ))}
                    </ul>
                 </div>
-                <div className="bg-black/20 backdrop-blur-3xl rounded-[48px] p-12 md:p-16 border border-white/10">
+                    <div className="bg-black/20 backdrop-blur-3xl rounded-[48px] p-12 md:p-16 border border-white/10">
                    <div className="flex flex-col gap-10">
                       <div className="space-y-4">
                          <p className="text-[10px] font-mono tracking-[0.5em] uppercase text-white/40">Inbound Call Ingest</p>
-                         <p className="text-2xl font-bold italic tracking-tight">"My ceiling is leaking and there's water everywhere!"</p>
+                         <p className="text-2xl font-bold italic tracking-tight">&quot;My ceiling is leaking and there&apos;s water everywhere!&quot;</p>
                       </div>
+
                       <div className="h-px bg-white/10 w-full"></div>
                       <div className="flex flex-col items-center gap-6">
                          <div className="bg-white text-accent px-10 py-5 rounded-2xl font-black text-lg shadow-[0_20px_40px_rgba(255,255,255,0.1)] flex items-center gap-4">
@@ -356,7 +357,7 @@ export default function Home() {
   );
 }
 
-const Activity = (props: any) => (
+const Activity = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     {...props}
     xmlns="http://www.w3.org/2000/svg"

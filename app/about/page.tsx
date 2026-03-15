@@ -9,7 +9,7 @@ export default function About() {
           <h2 className="text-accent font-bold mb-6 uppercase tracking-widest text-sm">Our Mission</h2>
           <h1 className="text-white mb-12">We built AuraVoice for the <span className="opacity-40">hard-working trades.</span></h1>
           <p className="text-2xl text-gray-400 leading-relaxed">
-            AuraVoice was born from a simple observation: the best plumbers, electricians, and HVAC pros are often the ones who can't answer their phones. They're too busy doing the work.
+            AuraVoice was born from a simple observation: the best plumbers, electricians, and HVAC pros are often the ones who can&apos;t answer their phones. They&apos;re too busy doing the work.
           </p>
         </div>
 
@@ -32,18 +32,20 @@ export default function About() {
                     <Users size={24} className="text-accent" />
                     Who We Are
                  </h4>
-                 <p className="text-gray-400 text-lg leading-relaxed">
-                    We are a team of AI engineers and home service agency experts based in San Francisco. We understand that your business doesn't need "chatbots"—it needs a reliable member of the team.
-                 </p>
+                  <p className="text-gray-400 text-lg leading-relaxed">
+                     We are a team of AI engineers and home service agency experts based in San Francisco. We understand that your business doesn&apos;t need &quot;chatbots&quot;—it needs a reliable member of the team.
+                  </p>
+
               </div>
               <div>
                  <h4 className="text-2xl font-bold mb-6 flex items-center gap-4">
                     <Target size={24} className="text-accent" />
                     Our Focus
                  </h4>
-                 <p className="text-gray-400 text-lg leading-relaxed">
-                    We only work with home service businesses. By narrowing our focus, we've built the most intelligent AI voice models for technical trades in the USA.
-                 </p>
+                  <p className="text-gray-400 text-lg leading-relaxed">
+                     We only work with home service businesses. By narrowing our focus, we&apos;ve built the most intelligent AI voice models for technical trades in the USA.
+                  </p>
+
               </div>
               <div>
                  <h4 className="text-2xl font-bold mb-6 flex items-center gap-4">

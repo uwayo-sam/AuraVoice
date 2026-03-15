@@ -1,4 +1,4 @@
-import { Check, ArrowRight, ShieldCheck, Zap, Star } from "lucide-react";
+import { Check, ShieldCheck, Zap, Star } from "lucide-react";
 import Link from "next/link";
 import { Metadata } from "next";
 
@@ -14,7 +14,7 @@ export default function Pricing() {
         <div className="text-center max-w-3xl mx-auto mb-24">
           <h2 className="text-accent font-bold mb-6 uppercase tracking-widest text-sm">Investment</h2>
           <h1 className="text-white mb-8">Simple, professional <br /> <span className="opacity-40">pricing for the trades.</span></h1>
-          <p className="text-xl text-gray-400">We don't hide our fees. You get full agency-level service for one clear investment.</p>
+          <p className="text-xl text-gray-400">We don&apos;t hide our fees. You get full agency-level service for one clear investment.</p>
         </div>
 
         <div className="max-w-4xl mx-auto">

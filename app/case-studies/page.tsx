@@ -35,7 +35,7 @@ export default function CaseStudies() {
           <h2 className="text-accent font-bold mb-6 uppercase tracking-widest text-sm">Success Stories</h2>
           <h1 className="text-white mb-12">Real results for <br /> <span className="opacity-40">real tradespeople.</span></h1>
           <p className="text-2xl text-gray-400 max-w-2xl leading-relaxed">
-            We don't just provide software—we provide a competitive advantage. See how AuraVoice is protecting revenue across the country.
+            We don&apos;t just provide software—we provide a competitive advantage. See how AuraVoice is protecting revenue across the country.
           </p>
         </div>
 
@@ -69,11 +69,11 @@ export default function CaseStudies() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 rounded-[50px] overflow-hidden border border-white/10">
            <div className="bg-[#0A0A0B] p-20 flex flex-col justify-center">
-              <h3 className="text-5xl font-bold mb-8 italic tracking-tighter">"I wake up to booked jobs in my calendar every single day."</h3>
+              <h3 className="text-5xl font-bold mb-8 italic tracking-tighter">&quot;I wake up to booked jobs in my calendar every single day.&quot;</h3>
               <p className="text-gray-400 text-lg uppercase font-bold tracking-[0.2em]">— Master Plumber, NJ</p>
            </div>
            <div className="bg-[#0F0F12] p-20 flex flex-col justify-center">
-              <h3 className="text-5xl font-bold mb-8 italic tracking-tighter">"We used to lose 5-10 calls every weekend. Now we capture them all."</h3>
+              <h3 className="text-5xl font-bold mb-8 italic tracking-tighter">&quot;We used to lose 5-10 calls every weekend. Now we capture them all.&quot;</h3>
               <p className="text-gray-400 text-lg uppercase font-bold tracking-[0.2em]">— HVAC Owner, TX</p>
            </div>
         </div>

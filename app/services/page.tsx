@@ -79,7 +79,7 @@ export default function Services() {
               <div>
                  <h3 className="text-4xl font-bold mb-8 tracking-tighter-x">Custom Node Architecture</h3>
                  <p className="text-primary text-lg leading-relaxed mb-10">
-                    Your business is unique. We build custom "Brains" trained on your specific service lists, pricing models, and technician skillsets. No generic responses, ever.
+                    Your business is unique. We build custom &quot;Brains&quot; trained on your specific service lists, pricing models, and technician skillsets. No generic responses, ever.
                  </p>
                  <div className="grid grid-cols-2 gap-8">
                     <div>

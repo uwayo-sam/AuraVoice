@@ -1,0 +1,16 @@
+{
+  "name": "AuraVoice AI",
+  "short_name": "AuraVoice",
+  "description": "24/7 AI Voice Agents for Home Services",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/AuraIcon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
